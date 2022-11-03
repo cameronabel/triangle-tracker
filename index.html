@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Triangle Tracker</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>Triangle Tracker</h1>
+  <form id="triangle-form">
+    <label for="side-a">Enter the length of <strong>Side A: </strong></label>
+    <input id="side-a" type="number">
+    <br>
+    <label for="side-b">Enter the length of <strong>Side B: </strong></label>
+    <input id="side-b" type="number">
+    <br>
+    <label for="side-c">Enter the length of <strong>Side C: </strong></label>
+    <input id="side-c" type="number">
+    <br>
+    <button type="submit">Triangulate!</button>
+  </form>
+  <p id="null-error" class="hidden">Please enter a value for all sides!</p>
+  <div id="triangle-type" class="hidden">
+    <h3>Your triangle is:</h3>
+    <p id="triangle-name"></p>
+  </div>
+</body>
+</html>
